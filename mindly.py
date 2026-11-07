@@ -22,7 +22,7 @@ class MindlyApp(App):
         bg_path = os.path.join(
             os.path.dirname(os.path.abspath(__file__)),
             "bg",
-            "mindly_bg1.png"
+            "mindly.png"
         )
 
         print("Background path:", bg_path)
@@ -205,8 +205,8 @@ class MindlyApp(App):
         suggestion = Label(
             text="Take a few moments to relax.\n"
                  "Try deep breathing or a short walk.\n"
-                 "go for a short nap.\n"
-                 "listen to your favorite music.\n"
+                 "Go for a short nap.\n"
+                 "Listen to your favorite music.\n"
                  "Talk to someone you trust if you need support.",
             font_size=50,
             color=(0.2, 0.1, 0.2 , 0.8)
